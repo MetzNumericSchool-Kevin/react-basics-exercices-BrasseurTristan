@@ -44,7 +44,7 @@ Prenons un exemple avec l'exercice n°1 : "Bienvenue à la boutique, aventurier 
 ```ts
 export default function Exercice1() {
   return (
-    <section id="exercice1">
+  \-
       <h1>Boutique d'Archibald le Sorcier 🧙‍♂️</h1>
       <p>
         Bienvenue Aventurier, ici vous pouvez acheter diverses potions pour vos

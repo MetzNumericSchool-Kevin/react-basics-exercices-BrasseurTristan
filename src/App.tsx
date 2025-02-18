@@ -1,14 +1,12 @@
 import "./App.css";
 import { Title } from "./exercices/exercice1/BienvenueAventurier";
+import { AppelArchibald } from "./exercices/exercice2/AppelArchibald";
 
 function App() {
   return (
     <div className="container p-5 mb-4 bg-body-tertiary rounded-3">
       <Title title="Boutique d'Archibald le Sorcier 🧙‍♂️" text="Bienvenue Aventurier, ici vous pouvez acheter diverses potions pour vos aventures !" />
-      <section id="exercice2">
-        <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
-        <button className="btn btn-primary">🛎️ Appeler Archibald</button>
-      </section>
+      <AppelArchibald />
 
       <h1 className="my-5">Voici quelques objets de ma boutique :</h1>
 
