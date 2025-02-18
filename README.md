@@ -195,7 +195,7 @@ function Exercice2() {
   - Tu nommeras les deux constantes comme tu le souhaites
   - Déclare une constante `styleMiroir` à laquelle on va affecter un objet, soit la valeur `{ opacity: 1 }` soit la valeur `{ opacity: 0 }` en fonction du booléen de l'état
   - Utilise la propriété `style` de la balise `<img />` pour modifier le style en interpolant la constante `styleMiroir`
-  - Ajoute desécouteurs d'évènements lié au survol d'un élément avec la souris :
+  - Ajoute des écouteurs d'évènements lié au survol d'un élément avec la souris :
     - `onMouseEnter` pour mettre à jour l'état qu'on souhaite afficher le reflet du miroir
     - `onMouseLeave` pour mettre à jour l'état qu'on souhaite cacher le reflet du miroir
 
