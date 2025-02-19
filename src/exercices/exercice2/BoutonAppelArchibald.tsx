@@ -1,5 +1,11 @@
 export const BoutonAppelArchibald = ({ quandSorcierRepond }) => {
+
+    function onClickHandler() {
+        quandSorcierRepond("🧙‍♂️ Archibald : J'arrive, j'arrive Aventurier !");
+    }
+
+
     return (
-        <button className="btn btn-primary" onClick={quandSorcierRepond}>🛎️ Appeler Archibald</button>
+        <button className="btn btn-primary" onClick={onClickHandler}>🛎️ Appeler Archibald</button>
     );
 }

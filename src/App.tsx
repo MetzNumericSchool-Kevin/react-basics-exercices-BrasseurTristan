@@ -2,6 +2,7 @@ import "./App.css";
 import { Title } from "./exercices/exercice1/BienvenueAventurier";
 import { AppelArchibald } from "./exercices/exercice2/AppelArchibald";
 import { Miroir } from "./exercices/exercice3/Miroir";
+import { BoitesPolycouleurs } from "./exercices/exercice4/BoitesPolycouleurs";
 
 function App() {
   return (
@@ -20,29 +21,7 @@ function App() {
       <section id="exercice4" className="my-5">
         <h2>Les boîtes polycouleurs</h2>
 
-        <div className="row">
-          <div className="col">
-            <button className="btn btn-danger">
-              🪄 Change la première boîte en rouge
-            </button>
-          </div>
-          <div className="col">
-            <button className="btn btn-primary">
-              🪄 Change les 2 premieres boîtes en bleu
-            </button>
-          </div>
-          <div className="col">
-            <button className="btn btn-success">
-              🪄 Change toutes les boîtes en vert
-            </button>
-          </div>
-        </div>
-
-        <div className="row mt-5 gap-5">
-          <div className="boite"></div>
-          <div className="boite"></div>
-          <div className="boite"></div>
-        </div>
+        <BoitesPolycouleurs />
       </section>
     </div>
   );
